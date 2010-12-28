@@ -429,6 +429,7 @@ then the script would do a sexy comment on the last visual selection.
                                       uncommenting.
 |'NERDCompactSexyComs'|               Specifies whether to use the compact
                                       style sexy comments.
+|'NERDMappingPrefix'|                 Mapping prefix for default mappings.
 
 ------------------------------------------------------------------------------
 4.3 Options details                                    *NERDComOptionsDetails*
@@ -687,6 +688,17 @@ Default 1.
 When this option is set to 1, comments are nested automatically. That is, if
 you hit <leader>cc on a line that is already commented it will be commented
 again.
+
+------------------------------------------------------------------------------
+                                                          *'NERDMappingPrefix'*
+Values: arbitrary string.
+Default "c".
+
+Set this option to change the prefix character or characters from "c" to some
+other character or sequence of characters. <leader> is still always used as
+the first character of the mapping. This is useful for changing the default
+mappings to avoid conflicts with other preferred mappings or with other
+plugins.
 
 ------------------------------------------------------------------------------
 3.3 Default delimiter customisation                     *NERDComDefaultDelims*
